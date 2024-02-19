@@ -1,7 +1,9 @@
 from flask import Flask,redirect
 import time
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 CCU = {}
 
