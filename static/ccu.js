@@ -8,5 +8,5 @@ function initCCU(app_id, element_id){
         fetch('https://ccu-api.reuben.zip/api/'+app_id+'/'+uniqueUserID).then(response => response.json()).then(data => {
             document.getElementById(element_id).innerHTML = data.ccu;
         });
-    }, 2000);
+    }, 1000);
 }
