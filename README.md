@@ -11,7 +11,7 @@ Free forever. No rate limiting.
 ## How:
 
 1) Add this script to your website:
-`<script src="https://ccu-api.reuben.zip/static/ccu.js"></script>`
+`<script src="https://cdn.jsdelivr.net/gh/mangocoder360/ccu-api/static/ccu.min.js"></script>`
 
 2) Add this JavaScript code: `initCCU("YOUR_APP_ID", "ID_OF_ELEMENT");` You can choose whatever unique app id you want as long as there is no spaces or special characters. The id of element is the id of the html element you want to be used to show the number
 
